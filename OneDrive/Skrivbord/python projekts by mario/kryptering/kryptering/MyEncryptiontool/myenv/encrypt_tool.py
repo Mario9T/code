@@ -59,3 +59,8 @@ def encrypt_file(filename):
         print(f"Filen {filename} finns inte. Kontrollera sökvägen och försök igen.")
         return
 # Fortsätt med krypteringen om filen inte finns
+
+#så kör jag koden 
+#python encrypt_tool.py generate
+#python encrypt_tool.py encrypt --file stop.txt  #(stop.txt är min file name)
+#python encrypt_tool.py decrypt --file stop.txt.enc
